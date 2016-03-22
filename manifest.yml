@@ -1,0 +1,9 @@
+---
+applications:
+- name: PeriodicTable
+  memory: 512M
+  host: pt-1
+  path: target/periodicTable-0.0.1-SNAPSHOT.jar
+  buildpack: https://github.com/cloudfoundry/java-buildpack
+  services:
+  - mydb
